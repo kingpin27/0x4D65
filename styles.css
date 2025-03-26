@@ -17,7 +17,7 @@ header {
 
 header div {
     height: 100%;
-    padding: 2rem;
+    padding: 1rem;
 }
 #profile-pic {
     height: 400px;
@@ -32,6 +32,30 @@ header div {
 .subtitle {
     color: rgb(0, 119, 76);
 }
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#social-links {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.socials-logo {
+    height: 32px;
+    width: 32px;
+}
+
+.source-code-pro-dsasdas {
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
 
 @media (max-width: 768px) {
     header {
